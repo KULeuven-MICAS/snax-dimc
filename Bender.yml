@@ -1,0 +1,32 @@
+package:
+  name: dimc
+  authors:
+    - "Ce Ma <ce.ma@esat.kuleuven.be>"
+
+sources:
+  - target: dimc
+    files:
+      #---------------------------
+      # Common Modules
+      #---------------------------
+      - rtl/dimc_detail_model_rtl.v
+      - rtl/qkt_macro_handler_unit_rtl.v
+      - rtl/qkv_macro_handler_unit_rtl.v
+      - rtl/qkt_macro_handler_hub_rtl.v
+      - rtl/qkv_macro_handler_hub_rtl.v
+      - rtl/snax_req_handler_rtl.v
+      - rtl/streamer_handler_rtl.v
+      # ----------------------------
+      # DIMC top
+      # ----------------------------
+      - rtl/snax_interfaces_rtl.v
+      - rtl/top.sv
+
+  - target: dimc
+    files:
+      # ----------------------------
+      # Testbench
+      # ----------------------------
+      # Level 0
+      # - rtl/tb/xxx.v
+      

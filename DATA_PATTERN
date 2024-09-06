@@ -1,0 +1,76 @@
+data access pattern for 
+
+data pattern (relative addr) for MHA mode:
+    1. LOAD WK [base addr = 0]
+        streamer port 0 [READ]: addr 0-63,    256-319, ..., 32512-32575 [totally 128 transactions]
+        streamer port 1 [READ]: addr 64-127,  320-383, ..., 32576-32639 [totally 128 transactions]
+        streamer port 2 [READ]: addr 128-191, 384-447, ..., 32640-32703 [totally 128 transactions]
+        streamer port 3 [READ]: addr 192-255, 448-511, ..., 32704-32767 [totally 128 transactions]
+
+    2. LOAD K [base addr = 0x8000(32768)]
+        streamer port 0 [READ]: addr 0-63,    256-319, ..., 32512-32575 [totally 128 transactions]
+        streamer port 1 [READ]: addr 64-127,  320-383, ..., 32576-32639 [totally 128 transactions]
+        streamer port 2 [READ]: addr 128-191, 384-447, ..., 32640-32703 [totally 128 transactions]
+        streamer port 3 [READ]: addr 192-255, 448-511, ..., 32704-32767 [totally 128 transactions]
+    
+    3. LOAD WQ [base addr = 0x10000(65536)]
+        streamer port 0 [READ]: addr 0-63,    256-319, ..., 32512-32575 [totally 128 transactions]
+        streamer port 1 [READ]: addr 64-127,  320-383, ..., 32576-32639 [totally 128 transactions]
+        streamer port 2 [READ]: addr 128-191, 384-447, ..., 32640-32703 [totally 128 transactions]
+        streamer port 3 [READ]: addr 192-255, 448-511, ..., 32704-32767 [totally 128 transactions]
+    
+    4. LOAD Q [base addr = 0x18000(98304)]
+        2x read transactions - 1x write transaction - 2x read transactions - 1x write transaction...
+        
+        streamer port 0 [READ]: addr 0-63,    256-319, ..., 32512-32575 [totally 128 transactions]
+        streamer port 1 [READ]: addr 64-127,  320-383, ..., 32576-32639 [totally 128 transactions]
+        streamer port 2 [READ]: addr 128-191, 384-447, ..., 32640-32703 [totally 128 transactions]
+        streamer port 3 [READ]: addr 192-255, 448-511, ..., 32704-32767 [totally 128 transactions]
+        
+        BUFFER Q1K1T [base addr = 0x30000(196608)]
+        streamer port 4 [WRITE]: addr 0-63, 64-127, ..., 4032-4095 [totally 64 transactions]
+
+    5. LOAD V [base addr = 0x20000(131072)]
+        streamer port 0 [READ]: addr 0-63,    256-319, ..., 32512-32575 [totally 128 transactions]
+        streamer port 1 [READ]: addr 64-127,  320-383, ..., 32576-32639 [totally 128 transactions]
+        streamer port 2 [READ]: addr 128-191, 384-447, ..., 32640-32703 [totally 128 transactions]
+        streamer port 3 [READ]: addr 192-255, 448-511, ..., 32704-32767 [totally 128 transactions]
+    
+    6. LOAD WV [base addr = 0x28000(163840)]
+        streamer port 0 [READ]: addr 0-63,    256-319, ..., 32512-32575 [totally 128 transactions]
+        streamer port 1 [READ]: addr 64-127,  320-383, ..., 32576-32639 [totally 128 transactions]
+        streamer port 2 [READ]: addr 128-191, 384-447, ..., 32640-32703 [totally 128 transactions]
+        streamer port 3 [READ]: addr 192-255, 448-511, ..., 32704-32767 [totally 128 transactions]
+
+    7. LOAD Q1K1T [base addr = 0x30000(196608)]
+        streamer port 0 [READ]: addr 0-63,    256-319, ..., 3840-3903 [totally 16 transactions]
+        streamer port 1 [READ]: addr 64-127,  320-383, ..., 3904-3967 [totally 16 transactions]
+        streamer port 2 [READ]: addr 128-191, 384-447, ..., 3968-4031 [totally 16 transactions]
+        streamer port 3 [READ]: addr 192-255, 448-511, ..., 4032-4095 [totally 16 transactions]
+    
+    maximum addr: 0x310000(200704)
+
+data pattern (relative addr) for CONV mode:
+    1. FETCH KERNEL [base addr = 0]
+        streamer port 0 [READ]: addr 0-63    [totally 1 transaction]
+        streamer port 1 [READ]: addr 64-127  [totally 1 transaction]
+        streamer port 2 [READ]: addr 128-191 [totally 1 transaction]
+        streamer port 3 [READ]: addr 192-255 [totally 1 transaction]
+    
+    2. FETCH ACTIVATION [base addr = 0x100(256)]
+        for QKV CLUSTER
+        streamer port 0 [READ]: addr 0-63,    256-319, ..., 32512-32575 [totally 128 transactions]
+        streamer port 1 [READ]: addr 64-127,  320-383, ..., 32576-32639 [totally 128 transactions]
+        streamer port 2 [READ]: addr 128-191, 384-447, ..., 32640-32703 [totally 128 transactions]
+        streamer port 3 [READ]: addr 192-255, 448-511, ..., 32704-32767 [totally 128 transactions]
+
+        for QKT CLUSTER
+        streamer port 0 [READ]: addr 32768-32831, 33024-33087, ..., 36608-36671 [totally 16 transactions]
+        streamer port 1 [READ]: addr 32832-32895, 33088-33151, ..., 36672-36735 [totally 16 transactions]
+        streamer port 2 [READ]: addr 32896-32959, 33152-33215, ..., 36736-36799 [totally 16 transactions]
+        streamer port 3 [READ]: addr 32960-33023, 33216-33279, ..., 36800-36863 [totally 16 transactions]
+    
+    3. SAVE CONV RESULT [base addr = 0x9100(37120)]
+        streamer port 4 [WRITE]: addr 0-63, 64-127, ..., 65472-65535 [totally 16x64 transactions]
+
+    maximum addr: 0x190C0(102592)
