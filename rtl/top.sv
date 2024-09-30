@@ -68,7 +68,7 @@ input  logic                       csr_rsp_ready_i;
 wire rst;
 
 wire [191:0] result_QKV_0, result_QKV_1, result_QKV_2, result_QKV_3, result_QKV_4, result_QKV_5, result_QKV_6, result_QKV_7, result_QKV_8, result_QKV_9, result_QKV_10, result_QKV_11, result_QKV_12, result_QKV_13, result_QKV_14, result_QKV_15,
-             result_QKV_16, result_QKV_17, result_QKV_18, result_QKV_19, result_QKV_20, result_QKV_21, result_QKV_22, result_QKV_23, result_QKV_24, result_QKV_25, result_QKV_26, result_QKV_27, result_QKV_28, result_QKV_29, result_QKV_30, result_QKV_31
+             result_QKV_16, result_QKV_17, result_QKV_18, result_QKV_19, result_QKV_20, result_QKV_21, result_QKV_22, result_QKV_23, result_QKV_24, result_QKV_25, result_QKV_26, result_QKV_27, result_QKV_28, result_QKV_29, result_QKV_30, result_QKV_31,
              result_QKT_0, result_QKT_1, result_QKT_2, result_QKT_3;
 
 wire [63:0] WL_QKV_0, WL_QKV_1, WL_QKV_2, WL_QKV_3, WL_QKV_4, WL_QKV_5, WL_QKV_6, WL_QKV_7, WL_QKV_8, WL_QKV_9, WL_QKV_10, WL_QKV_11, WL_QKV_12, WL_QKV_13, WL_QKV_14, WL_QKV_15,
