@@ -1,0 +1,1 @@
+for digital flow, the macro has a fake clk pin, so in top.sv, this pin is preserved
