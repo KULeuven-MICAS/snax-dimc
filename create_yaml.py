@@ -6,10 +6,15 @@ base_dir = 'rtl'
 # Initialize lists to store file paths
 submodule_files = []
 common_files = []
+top_file = None
 
 # Traverse the base directory
 for root, dirs, files in os.walk(base_dir):
     if root == base_dir:
+        # Check if top.sv exists directly under the rtl directory
+        if 'top.sv' in files:
+            top_file = os.path.join(base_dir, 'top.sv').replace('\\', '/')
+
         # Iterate over all top-level directories inside rtl/
         for dir_name in dirs:
             dir_path = os.path.join(base_dir, dir_name)
@@ -55,6 +60,13 @@ if common_files:
     yaml_content += '      #---------------------------\n'
     for file in common_files:
         yaml_content += f'      - {file}\n'
+
+# Add the top.sv file if it exists
+if top_file:
+    yaml_content += '      # ----------------------------\n'
+    yaml_content += '      # DIMC top\n'
+    yaml_content += '      # ----------------------------\n'
+    yaml_content += f'      - {top_file}\n'
 
 # Write the collected data to a YAML file
 yaml_file = 'Bender.yml'
