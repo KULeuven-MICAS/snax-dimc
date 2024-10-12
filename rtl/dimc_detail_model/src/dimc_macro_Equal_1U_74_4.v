@@ -11,8 +11,8 @@ module dimc_macro_Equal_1U_74_4( in1, out1 );
     output out1;
 
     
-    // rtl_process:dimc_macro_Equal_1U_77_4/dimc_macro_Equal_1U_77_4_thread_1
-    assign out1 = in1 == 6'd46;
+    // rtl_process:dimc_macro_Equal_1U_50_4/dimc_macro_Equal_1U_50_4_thread_1
+    assign out1 = in1 == 6'd42;
 
 endmodule
 
