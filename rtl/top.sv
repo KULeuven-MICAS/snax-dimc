@@ -199,7 +199,6 @@ snax_interfaces i_snax_interfaces(
 `ifdef TARGET_TECH_CELLS_GENERIC_EXCLUDE_TC_SRAM
 
 dimc_macro i_dimc_macro_0(.clk(clk_i),
-                          .rst(rst_i),
                           .WL(WL_QKV_0), 
                           .wdata(wdata_QKV_0), 
                           .ai(ai_QKV_0), 
@@ -225,7 +224,6 @@ dimc_macro i_dimc_macro_0(.clk(clk_i),
                         );
 
 dimc_macro i_dimc_macro_1(.clk(clk_i),
-                          .rst(rst_i),
                           .WL(WL_QKV_1), 
                           .wdata(wdata_QKV_1), 
                           .ai(ai_QKV_1), 
