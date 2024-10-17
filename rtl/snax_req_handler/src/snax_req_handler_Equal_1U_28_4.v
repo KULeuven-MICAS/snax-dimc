@@ -11,8 +11,8 @@ module snax_req_handler_Equal_1U_28_4( in1, out1 );
     output out1;
 
     
-    // rtl_process:snax_req_handler_Equal_1U_23_4/snax_req_handler_Equal_1U_23_4_thread_1
-    assign out1 = in1 == 32'd0000000016;
+    // rtl_process:snax_req_handler_Equal_1U_36_4/snax_req_handler_Equal_1U_36_4_thread_1
+    assign out1 = in1 == 32'd0000000020;
 
 endmodule
 
