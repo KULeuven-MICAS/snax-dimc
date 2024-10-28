@@ -509,7 +509,6 @@ sources:
       - rtl/qkt_macro_handler_unit/v_rtl/qkt_macro_handler_unit_Sub_6Sx1U_6S_1.v
       - rtl/qkt_macro_handler_unit/v_rtl/qkt_macro_handler_unit_Sub_24Sx17U_25S_4.v
       - rtl/qkt_macro_handler_unit/v_rtl/qkt_macro_handler_unit_Xor_1Ux1U_1U_1.v
-      - rtl/qkt_macro_handler_unit/v_rtl/qkt_macro_handler_unit_Add_9U_158_4.v
       - rtl/qkt_macro_handler_unit/v_rtl/qkt_macro_handler_unit_Add_2U_1_4.v
       - rtl/qkt_macro_handler_unit/v_rtl/qkt_macro_handler_unit_Equal_1U_137_4.v
       - rtl/qkt_macro_handler_unit/v_rtl/qkt_macro_handler_unit_Equal_1U_70_1.v
@@ -697,6 +696,7 @@ sources:
       - rtl/qkt_macro_handler_unit/v_rtl/qkt_macro_handler_unit_Equal_1U_60_4.v
       - rtl/qkt_macro_handler_unit/v_rtl/qkt_macro_handler_unit_Equal_1U_105_1.v
       - rtl/qkt_macro_handler_unit/v_rtl/qkt_macro_handler_unit_Sub_6S_44_4.v
+      - rtl/qkt_macro_handler_unit/v_rtl/qkt_macro_handler_unit_Add_10U_158_4.v
       - rtl/qkt_macro_handler_unit/v_rtl/qkt_macro_handler_unit_Or_64Ux60U_64U_4.v
       - rtl/qkt_macro_handler_unit/v_rtl/qkt_macro_handler_unit_Xor_64U_124_1.v
       - rtl/qkt_macro_handler_unit/v_rtl/qkt_macro_handler_unit_Sub_6S_44_1.v
@@ -1110,6 +1110,7 @@ sources:
       - rtl/qkv_macro_handler_unit/v_rtl/qkv_macro_handler_unit_LeftShift_1Ux6U_64U_4.v
       - rtl/qkv_macro_handler_unit/v_rtl/qkv_macro_handler_unit_Equal_1U_110_4.v
       - rtl/qkv_macro_handler_unit/v_rtl/qkv_macro_handler_unit_Add_24Sx17U_25S_4.v
+      - rtl/qkv_macro_handler_unit/v_rtl/qkv_macro_handler_unit_Add_10U_162_4.v
       - rtl/qkv_macro_handler_unit/v_rtl/qkv_macro_handler_unit_Sub_27Sx17U_28S_1.v
       - rtl/qkv_macro_handler_unit/v_rtl/qkv_macro_handler_unit_Equal_1U_78_4.v
       - rtl/qkv_macro_handler_unit/v_rtl/qkv_macro_handler_unit_Add_27Sx17U_28S_4.v
@@ -1231,7 +1232,6 @@ sources:
       - rtl/qkv_macro_handler_unit/v_rtl/qkv_macro_handler_unit_Add_26Sx17U_27S_1.v
       - rtl/qkv_macro_handler_unit/v_rtl/qkv_macro_handler_unit_OrReduction_6U_1U_1.v
       - rtl/qkv_macro_handler_unit/v_rtl/qkv_macro_handler_unit_Equal_1U_138_4.v
-      - rtl/qkv_macro_handler_unit/v_rtl/qkv_macro_handler_unit_Add_9U_162_4.v
       - rtl/qkv_macro_handler_unit/v_rtl/qkv_macro_handler_unit_Equal_1U_143_4.v
       - rtl/qkv_macro_handler_unit/v_rtl/qkv_macro_handler_unit_Equal_1U_146_1.v
       - rtl/qkv_macro_handler_unit/v_rtl/qkv_macro_handler_unit_Or_16Ux12U_16U_1.v
