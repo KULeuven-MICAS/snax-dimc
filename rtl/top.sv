@@ -99,7 +99,7 @@ wire PREC_QKV__0, PREC_QKV__1, PREC_QKV__2, PREC_QKV__3, PREC_QKV__4, PREC_QKV__
 
 snax_interfaces i_snax_interfaces(
     .clk(clk_i),
-    .rst(rst),
+    .rst(rst_ni),
 
     .snax_acc_req_valid(csr_req_valid_i),
     .snax_acc_req_data_addr(csr_req_addr_i),
