@@ -18,5 +18,3 @@ module qkv_macro_handler_unit_Add_18Sx17U_19S_1( in2, in1, out1 );
 endmodule
 
 
-
-

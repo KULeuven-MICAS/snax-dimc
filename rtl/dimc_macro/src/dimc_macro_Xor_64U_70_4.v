@@ -17,5 +17,3 @@ module dimc_macro_Xor_64U_70_4( in1, out1 );
 endmodule
 
 
-
-

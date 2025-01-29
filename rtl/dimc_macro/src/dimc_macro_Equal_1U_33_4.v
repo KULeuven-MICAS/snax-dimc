@@ -17,5 +17,3 @@ module dimc_macro_Equal_1U_33_4( in1, out1 );
 endmodule
 
 
-
-

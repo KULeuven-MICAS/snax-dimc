@@ -7,12 +7,12 @@
 
 module qkv_macro_handler_hub_Equal_1U_32_4( in1, out1 );
 
-    input [5:0] in1;
+    input [4:0] in1;
     output out1;
 
     
-    // rtl_process:qkv_macro_handler_hub_Equal_1U_23_4/qkv_macro_handler_hub_Equal_1U_23_4_thread_1
-    assign out1 = in1 == 6'd51;
+    // rtl_process:qkv_macro_handler_hub_Equal_1U_32_4/qkv_macro_handler_hub_Equal_1U_32_4_thread_1
+    assign out1 = in1 == 5'd10;
 
 endmodule
 

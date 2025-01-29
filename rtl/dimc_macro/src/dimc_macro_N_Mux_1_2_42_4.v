@@ -31,5 +31,3 @@ module dimc_macro_N_Mux_1_2_42_4( in2, ctrl1, out1 );
 endmodule
 
 
-
-

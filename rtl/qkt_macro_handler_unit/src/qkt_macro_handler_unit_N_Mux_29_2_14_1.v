@@ -32,5 +32,3 @@ module qkt_macro_handler_unit_N_Mux_29_2_14_1( in3, in2, ctrl1, out1 );
 endmodule
 
 
-
-

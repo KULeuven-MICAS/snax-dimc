@@ -32,5 +32,3 @@ module streamer_handler_N_Mux_1_2_2_4( in3, in2, ctrl1, out1 );
 endmodule
 
 
-
-

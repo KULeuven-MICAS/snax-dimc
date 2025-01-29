@@ -18,5 +18,3 @@ module dimc_macro_Mul_8Ux4U_12U_4( in2, in1, out1 );
 endmodule
 
 
-
-

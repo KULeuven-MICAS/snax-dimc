@@ -18,5 +18,3 @@ module qkv_macro_handler_unit_Or_24Ux20U_24U_4( in2, in1, out1 );
 endmodule
 
 
-
-
