@@ -11,8 +11,8 @@ module qkv_macro_handler_unit_Equal_1U_109_4( in1, out1 );
     output out1;
 
     
-    // rtl_process:qkv_macro_handler_hub_Equal_1U_23_4/qkv_macro_handler_hub_Equal_1U_23_4_thread_1
-    assign out1 = in1 == 6'd51;
+    // rtl_process:qkv_macro_handler_hub_Equal_1U_96_4/qkv_macro_handler_hub_Equal_1U_96_4_thread_1
+    assign out1 = in1 == 6'd63;
 
 endmodule
 

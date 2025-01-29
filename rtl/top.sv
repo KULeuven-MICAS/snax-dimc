@@ -99,7 +99,7 @@ wire PREC_QKV__0, PREC_QKV__1, PREC_QKV__2, PREC_QKV__3, PREC_QKV__4, PREC_QKV__
 
 snax_interfaces i_snax_interfaces(
     .clk(clk_i),
-    .rst(rst_ni),
+    .rst_ni(rst_ni),
 
     .snax_acc_req_valid(csr_req_valid_i),
     .snax_acc_req_data_addr(csr_req_addr_i),
@@ -1102,7 +1102,7 @@ dimc_macro i_dimc_macro_35(.clk(clk_i),
 
 `else
 dimc_macro i_dimc_macro_0(.clk(clk_i),
-                          .rst(rst_ni),
+                          .rst_ni(rst_ni),
                           .WL(WL_QKV_0), 
                           .wdata(wdata_QKV_0), 
                           .ai(ai_QKV_0), 
@@ -1128,7 +1128,7 @@ dimc_macro i_dimc_macro_0(.clk(clk_i),
                         );
 
 dimc_macro i_dimc_macro_1(.clk(clk_i),
-                          .rst(rst_ni),
+                          .rst_ni(rst_ni),
                           .WL(WL_QKV_1), 
                           .wdata(wdata_QKV_1), 
                           .ai(ai_QKV_1), 
@@ -1154,7 +1154,7 @@ dimc_macro i_dimc_macro_1(.clk(clk_i),
                         );
 
 dimc_macro i_dimc_macro_2(.clk(clk_i),
-                          .rst(rst_ni),
+                          .rst_ni(rst_ni),
                           .WL(WL_QKV_2), 
                           .wdata(wdata_QKV_2), 
                           .ai(ai_QKV_2), 
@@ -1180,7 +1180,7 @@ dimc_macro i_dimc_macro_2(.clk(clk_i),
                         );
 
 dimc_macro i_dimc_macro_3(.clk(clk_i),
-                          .rst(rst_ni),
+                          .rst_ni(rst_ni),
                           .WL(WL_QKV_3), 
                           .wdata(wdata_QKV_3), 
                           .ai(ai_QKV_3), 
@@ -1206,7 +1206,7 @@ dimc_macro i_dimc_macro_3(.clk(clk_i),
                         );
 
 dimc_macro i_dimc_macro_4(.clk(clk_i),
-                          .rst(rst_ni),
+                          .rst_ni(rst_ni),
                           .WL(WL_QKV_4), 
                           .wdata(wdata_QKV_4), 
                           .ai(ai_QKV_4), 
@@ -1232,7 +1232,7 @@ dimc_macro i_dimc_macro_4(.clk(clk_i),
                         );
 
 dimc_macro i_dimc_macro_5(.clk(clk_i),
-                          .rst(rst_ni),
+                          .rst_ni(rst_ni),
                           .WL(WL_QKV_5), 
                           .wdata(wdata_QKV_5), 
                           .ai(ai_QKV_5), 
@@ -1258,7 +1258,7 @@ dimc_macro i_dimc_macro_5(.clk(clk_i),
                         );
 
 dimc_macro i_dimc_macro_6(.clk(clk_i),
-                          .rst(rst_ni),
+                          .rst_ni(rst_ni),
                           .WL(WL_QKV_6), 
                           .wdata(wdata_QKV_6), 
                           .ai(ai_QKV_6), 
@@ -1284,7 +1284,7 @@ dimc_macro i_dimc_macro_6(.clk(clk_i),
                         );
 
 dimc_macro i_dimc_macro_7(.clk(clk_i),
-                          .rst(rst_ni),
+                          .rst_ni(rst_ni),
                           .WL(WL_QKV_7), 
                           .wdata(wdata_QKV_7), 
                           .ai(ai_QKV_7), 
@@ -1310,7 +1310,7 @@ dimc_macro i_dimc_macro_7(.clk(clk_i),
                         );
 
 dimc_macro i_dimc_macro_8(.clk(clk_i),
-                          .rst(rst_ni),
+                          .rst_ni(rst_ni),
                           .WL(WL_QKV_8), 
                           .wdata(wdata_QKV_8), 
                           .ai(ai_QKV_8), 
@@ -1336,7 +1336,7 @@ dimc_macro i_dimc_macro_8(.clk(clk_i),
                         );
 
 dimc_macro i_dimc_macro_9(.clk(clk_i),
-                          .rst(rst_ni),
+                          .rst_ni(rst_ni),
                           .WL(WL_QKV_9), 
                           .wdata(wdata_QKV_9), 
                           .ai(ai_QKV_9), 
@@ -1362,7 +1362,7 @@ dimc_macro i_dimc_macro_9(.clk(clk_i),
                         );
 
 dimc_macro i_dimc_macro_10(.clk(clk_i),
-                          .rst(rst_ni),
+                          .rst_ni(rst_ni),
                           .WL(WL_QKV_10), 
                           .wdata(wdata_QKV_10), 
                           .ai(ai_QKV_10), 
@@ -1388,7 +1388,7 @@ dimc_macro i_dimc_macro_10(.clk(clk_i),
                         );
 
 dimc_macro i_dimc_macro_11(.clk(clk_i),
-                          .rst(rst_ni),
+                          .rst_ni(rst_ni),
                           .WL(WL_QKV_11), 
                           .wdata(wdata_QKV_11), 
                           .ai(ai_QKV_11), 
@@ -1414,7 +1414,7 @@ dimc_macro i_dimc_macro_11(.clk(clk_i),
                         );
 
 dimc_macro i_dimc_macro_12(.clk(clk_i),
-                          .rst(rst_ni),
+                          .rst_ni(rst_ni),
                           .WL(WL_QKV_12), 
                           .wdata(wdata_QKV_12), 
                           .ai(ai_QKV_12), 
@@ -1440,7 +1440,7 @@ dimc_macro i_dimc_macro_12(.clk(clk_i),
                         );
 
 dimc_macro i_dimc_macro_13(.clk(clk_i),
-                          .rst(rst_ni),
+                          .rst_ni(rst_ni),
                           .WL(WL_QKV_13), 
                           .wdata(wdata_QKV_13), 
                           .ai(ai_QKV_13), 
@@ -1466,7 +1466,7 @@ dimc_macro i_dimc_macro_13(.clk(clk_i),
                         );
 
 dimc_macro i_dimc_macro_14(.clk(clk_i),
-                          .rst(rst_ni),
+                          .rst_ni(rst_ni),
                           .WL(WL_QKV_14), 
                           .wdata(wdata_QKV_14), 
                           .ai(ai_QKV_14), 
@@ -1492,7 +1492,7 @@ dimc_macro i_dimc_macro_14(.clk(clk_i),
                         );
 
 dimc_macro i_dimc_macro_15(.clk(clk_i),
-                          .rst(rst_ni),
+                          .rst_ni(rst_ni),
                           .WL(WL_QKV_15), 
                           .wdata(wdata_QKV_15), 
                           .ai(ai_QKV_15), 
@@ -1518,7 +1518,7 @@ dimc_macro i_dimc_macro_15(.clk(clk_i),
                         );
 
 dimc_macro i_dimc_macro_16(.clk(clk_i),
-                          .rst(rst_ni),
+                          .rst_ni(rst_ni),
                           .WL(WL_QKV_16), 
                           .wdata(wdata_QKV_16), 
                           .ai(ai_QKV_16), 
@@ -1544,7 +1544,7 @@ dimc_macro i_dimc_macro_16(.clk(clk_i),
                         );
 
 dimc_macro i_dimc_macro_17(.clk(clk_i),
-                          .rst(rst_ni),
+                          .rst_ni(rst_ni),
                           .WL(WL_QKV_17), 
                           .wdata(wdata_QKV_17), 
                           .ai(ai_QKV_17), 
@@ -1570,7 +1570,7 @@ dimc_macro i_dimc_macro_17(.clk(clk_i),
                         );
 
 dimc_macro i_dimc_macro_18(.clk(clk_i),
-                          .rst(rst_ni),
+                          .rst_ni(rst_ni),
                           .WL(WL_QKV_18), 
                           .wdata(wdata_QKV_18), 
                           .ai(ai_QKV_18), 
@@ -1596,7 +1596,7 @@ dimc_macro i_dimc_macro_18(.clk(clk_i),
                         );
 
 dimc_macro i_dimc_macro_19(.clk(clk_i),
-                          .rst(rst_ni),
+                          .rst_ni(rst_ni),
                           .WL(WL_QKV_19), 
                           .wdata(wdata_QKV_19), 
                           .ai(ai_QKV_19), 
@@ -1622,7 +1622,7 @@ dimc_macro i_dimc_macro_19(.clk(clk_i),
                         );
 
 dimc_macro i_dimc_macro_20(.clk(clk_i),
-                          .rst(rst_ni),
+                          .rst_ni(rst_ni),
                           .WL(WL_QKV_20), 
                           .wdata(wdata_QKV_20), 
                           .ai(ai_QKV_20), 
@@ -1648,7 +1648,7 @@ dimc_macro i_dimc_macro_20(.clk(clk_i),
                         );
 
 dimc_macro i_dimc_macro_21(.clk(clk_i),
-                          .rst(rst_ni),
+                          .rst_ni(rst_ni),
                           .WL(WL_QKV_21), 
                           .wdata(wdata_QKV_21), 
                           .ai(ai_QKV_21), 
@@ -1674,7 +1674,7 @@ dimc_macro i_dimc_macro_21(.clk(clk_i),
                         );
 
 dimc_macro i_dimc_macro_22(.clk(clk_i),
-                          .rst(rst_ni),
+                          .rst_ni(rst_ni),
                           .WL(WL_QKV_22), 
                           .wdata(wdata_QKV_22), 
                           .ai(ai_QKV_22), 
@@ -1700,7 +1700,7 @@ dimc_macro i_dimc_macro_22(.clk(clk_i),
                         );
 
 dimc_macro i_dimc_macro_23(.clk(clk_i),
-                          .rst(rst_ni),
+                          .rst_ni(rst_ni),
                           .WL(WL_QKV_23), 
                           .wdata(wdata_QKV_23), 
                           .ai(ai_QKV_23), 
@@ -1726,7 +1726,7 @@ dimc_macro i_dimc_macro_23(.clk(clk_i),
                         );
 
 dimc_macro i_dimc_macro_24(.clk(clk_i),
-                          .rst(rst_ni),
+                          .rst_ni(rst_ni),
                           .WL(WL_QKV_24), 
                           .wdata(wdata_QKV_24), 
                           .ai(ai_QKV_24), 
@@ -1752,7 +1752,7 @@ dimc_macro i_dimc_macro_24(.clk(clk_i),
                         );
 
 dimc_macro i_dimc_macro_25(.clk(clk_i),
-                          .rst(rst_ni),
+                          .rst_ni(rst_ni),
                           .WL(WL_QKV_25), 
                           .wdata(wdata_QKV_25), 
                           .ai(ai_QKV_25), 
@@ -1778,7 +1778,7 @@ dimc_macro i_dimc_macro_25(.clk(clk_i),
                         );
 
 dimc_macro i_dimc_macro_26(.clk(clk_i),
-                          .rst(rst_ni),
+                          .rst_ni(rst_ni),
                           .WL(WL_QKV_26), 
                           .wdata(wdata_QKV_26), 
                           .ai(ai_QKV_26), 
@@ -1804,7 +1804,7 @@ dimc_macro i_dimc_macro_26(.clk(clk_i),
                         );
 
 dimc_macro i_dimc_macro_27(.clk(clk_i),
-                          .rst(rst_ni),
+                          .rst_ni(rst_ni),
                           .WL(WL_QKV_27), 
                           .wdata(wdata_QKV_27), 
                           .ai(ai_QKV_27), 
@@ -1830,7 +1830,7 @@ dimc_macro i_dimc_macro_27(.clk(clk_i),
                         );
 
 dimc_macro i_dimc_macro_28(.clk(clk_i),
-                          .rst(rst_ni),
+                          .rst_ni(rst_ni),
                           .WL(WL_QKV_28), 
                           .wdata(wdata_QKV_28), 
                           .ai(ai_QKV_28), 
@@ -1856,7 +1856,7 @@ dimc_macro i_dimc_macro_28(.clk(clk_i),
                         );
 
 dimc_macro i_dimc_macro_29(.clk(clk_i),
-                          .rst(rst_ni),
+                          .rst_ni(rst_ni),
                           .WL(WL_QKV_29), 
                           .wdata(wdata_QKV_29), 
                           .ai(ai_QKV_29), 
@@ -1882,7 +1882,7 @@ dimc_macro i_dimc_macro_29(.clk(clk_i),
                         );
 
 dimc_macro i_dimc_macro_30(.clk(clk_i),
-                          .rst(rst_ni),
+                          .rst_ni(rst_ni),
                           .WL(WL_QKV_30), 
                           .wdata(wdata_QKV_30), 
                           .ai(ai_QKV_30), 
@@ -1908,7 +1908,7 @@ dimc_macro i_dimc_macro_30(.clk(clk_i),
                         );
 
 dimc_macro i_dimc_macro_31(.clk(clk_i),
-                          .rst(rst_ni),
+                          .rst_ni(rst_ni),
                           .WL(WL_QKV_31), 
                           .wdata(wdata_QKV_31), 
                           .ai(ai_QKV_31), 
@@ -1934,7 +1934,7 @@ dimc_macro i_dimc_macro_31(.clk(clk_i),
                         );
 
 dimc_macro i_dimc_macro_32(.clk(clk_i),
-                          .rst(rst_ni),
+                          .rst_ni(rst_ni),
                           .WL(WL_QKT_0), 
                           .wdata(wdata_QKT_0), 
                           .ai(ai_QKT_0), 
@@ -1960,7 +1960,7 @@ dimc_macro i_dimc_macro_32(.clk(clk_i),
                         );
 
 dimc_macro i_dimc_macro_33(.clk(clk_i),
-                          .rst(rst_ni),
+                          .rst_ni(rst_ni),
                           .WL(WL_QKT_1), 
                           .wdata(wdata_QKT_1), 
                           .ai(ai_QKT_1), 
@@ -1986,7 +1986,7 @@ dimc_macro i_dimc_macro_33(.clk(clk_i),
                         );
 
 dimc_macro i_dimc_macro_34(.clk(clk_i),
-                          .rst(rst_ni),
+                          .rst_ni(rst_ni),
                           .WL(WL_QKT_2), 
                           .wdata(wdata_QKT_2), 
                           .ai(ai_QKT_2), 
@@ -2012,7 +2012,7 @@ dimc_macro i_dimc_macro_34(.clk(clk_i),
                         );
 
 dimc_macro i_dimc_macro_35(.clk(clk_i),
-                          .rst(rst_ni),
+                          .rst_ni(rst_ni),
                           .WL(WL_QKT_3), 
                           .wdata(wdata_QKT_3), 
                           .ai(ai_QKT_3), 
