@@ -1641,6 +1641,7 @@ sources:
       # Common Modules
       #---------------------------
       - rtl/dimc_macro/dimc_detail_model_rtl.v
+      - rtl/copy_dir/top.sv
       - rtl/qkt_macro_handler_hub/qkt_macro_handler_hub_rtl.v
       - rtl/snax_interfaces/snax_interfaces_rtl.v
       - rtl/qkt_macro_handler_unit/qkt_macro_handler_unit_rtl.v
@@ -1648,7 +1649,3 @@ sources:
       - rtl/streamer_handler/streamer_handler_rtl.v
       - rtl/qkv_macro_handler_unit/qkv_macro_handler_unit_rtl.v
       - rtl/qkv_macro_handler_hub/qkv_macro_handler_hub_rtl.v
-      # ----------------------------
-      # DIMC top
-      # ----------------------------
-      - rtl/top.sv
