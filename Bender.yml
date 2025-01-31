@@ -1447,6 +1447,7 @@ sources:
       - rtl/qkv_macro_handler_hub/v_rtl/qkv_macro_handler_hub_Equal_1U_21_4.v
       - rtl/qkv_macro_handler_hub/v_rtl/qkv_macro_handler_hub_Equal_1U_38_4.v
       - rtl/qkv_macro_handler_hub/v_rtl/qkv_macro_handler_hub_Equal_1U_7_4.v
+      - rtl/qkv_macro_handler_hub/v_rtl/qkv_macro_handler_hub_Add_7U_173_4.v
       - rtl/qkv_macro_handler_hub/v_rtl/qkv_macro_handler_hub_OrReduction_6U_1U_4.v
       - rtl/qkv_macro_handler_hub/v_rtl/qkv_macro_handler_hub_Add_5Sx4U_6S_1.v
       - rtl/qkv_macro_handler_hub/v_rtl/qkv_macro_handler_hub_LessThan_6Sx6S_1U_4.v
@@ -1561,7 +1562,6 @@ sources:
       - rtl/qkv_macro_handler_hub/v_rtl/qkv_macro_handler_hub_Equal_1U_52_1.v
       - rtl/qkv_macro_handler_hub/v_rtl/qkv_macro_handler_hub_Equal_1U_62_4.v
       - rtl/qkv_macro_handler_hub/v_rtl/qkv_macro_handler_hub_Equal_1U_150_1.v
-      - rtl/qkv_macro_handler_hub/v_rtl/qkv_macro_handler_hub_Add_6U_173_4.v
       - rtl/qkv_macro_handler_hub/v_rtl/qkv_macro_handler_hub_N_Mux_8_16_171_4.v
       - rtl/qkv_macro_handler_hub/v_rtl/qkv_macro_handler_hub_Xor_1Ux1U_1U_s_4.v
       - rtl/qkv_macro_handler_hub/v_rtl/qkv_macro_handler_hub_Equal_1U_149_1.v
@@ -1641,7 +1641,6 @@ sources:
       # Common Modules
       #---------------------------
       - rtl/dimc_macro/dimc_detail_model_rtl.v
-      - rtl/copy_dir/top.sv
       - rtl/qkt_macro_handler_hub/qkt_macro_handler_hub_rtl.v
       - rtl/snax_interfaces/snax_interfaces_rtl.v
       - rtl/qkt_macro_handler_unit/qkt_macro_handler_unit_rtl.v
@@ -1649,3 +1648,7 @@ sources:
       - rtl/streamer_handler/streamer_handler_rtl.v
       - rtl/qkv_macro_handler_unit/qkv_macro_handler_unit_rtl.v
       - rtl/qkv_macro_handler_hub/qkv_macro_handler_hub_rtl.v
+      # ----------------------------
+      # DIMC top
+      # ----------------------------
+      - rtl/top.sv
