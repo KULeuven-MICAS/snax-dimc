@@ -867,6 +867,7 @@ sources:
       - rtl/snax_req_handler/v_rtl/snax_req_handler_Equal_32Ux2U_1U_4.v
       - rtl/snax_req_handler/v_rtl/snax_req_handler_Equal_1U_5_4.v
       - rtl/streamer_handler/v_rtl/streamer_handler_N_Mux_8_4_23_1.v
+      - rtl/streamer_handler/v_rtl/streamer_handler_Add_8U_24_4.v
       - rtl/streamer_handler/v_rtl/streamer_handler_Or_1Ux1U_1U_s_1.v
       - rtl/streamer_handler/v_rtl/streamer_handler_LessThan_1U_2_4.v
       - rtl/streamer_handler/v_rtl/streamer_handler_N_Mux_8_4_23_4.v
@@ -906,7 +907,6 @@ sources:
       - rtl/streamer_handler/v_rtl/streamer_handler_And_1Ux1U_1U_s_1.v
       - rtl/streamer_handler/v_rtl/streamer_handler_LessThan_1U_20_1.v
       - rtl/streamer_handler/v_rtl/streamer_handler_LessThan_1U_20_4.v
-      - rtl/streamer_handler/v_rtl/streamer_handler_Add_6U_24_4.v
       - rtl/streamer_handler/v_rtl/streamer_handler_LessThan_1U_0_1.v
       - rtl/streamer_handler/v_rtl/streamer_handler_Add_7U_3_4.v
       - rtl/streamer_handler/v_rtl/streamer_handler_N_Mux_8_16_22_1.v
