@@ -879,13 +879,13 @@ sources:
       - rtl/streamer_handler/v_rtl/streamer_handler_LessThan_6Sx6S_1U_4.v
       - rtl/streamer_handler/v_rtl/streamer_handler_Add_3U_10_1.v
       - rtl/streamer_handler/v_rtl/streamer_handler_Xor_1Ux1U_1U_4.v
-      - rtl/streamer_handler/v_rtl/streamer_handler_Add_6U_16_4.v
       - rtl/streamer_handler/v_rtl/streamer_handler_Add_6Ux1U_7U_4.v
       - rtl/streamer_handler/v_rtl/streamer_handler_LessThan_1U_9_4.v
       - rtl/streamer_handler/v_rtl/streamer_handler_LessThan_1U_7_1.v
       - rtl/streamer_handler/v_rtl/streamer_handler_Add_4Ux1U_5U_1.v
       - rtl/streamer_handler/v_rtl/streamer_handler_N_Mux_8_4_15_1.v
       - rtl/streamer_handler/v_rtl/streamer_handler_LessThan_4Sx4S_1U_1.v
+      - rtl/streamer_handler/v_rtl/streamer_handler_Add_7U_16_4.v
       - rtl/streamer_handler/v_rtl/streamer_handler_Not_1U_1U_4.v
       - rtl/streamer_handler/v_rtl/streamer_handler_N_Mux_8_16_14_4.v
       - rtl/streamer_handler/v_rtl/streamer_handler_Add_1Ux1U_2U_1.v
@@ -1495,6 +1495,7 @@ sources:
       - rtl/qkv_macro_handler_hub/v_rtl/qkv_macro_handler_hub_Add_4Ux1U_5U_4.v
       - rtl/qkv_macro_handler_hub/v_rtl/qkv_macro_handler_hub_Sub_6S_123_1.v
       - rtl/qkv_macro_handler_hub/v_rtl/qkv_macro_handler_hub_Equal_1U_163_4.v
+      - rtl/qkv_macro_handler_hub/v_rtl/qkv_macro_handler_hub_Add_7U_168_4.v
       - rtl/qkv_macro_handler_hub/v_rtl/qkv_macro_handler_hub_Equal_5Ux2U_1U_1.v
       - rtl/qkv_macro_handler_hub/v_rtl/qkv_macro_handler_hub_Equal_1U_81_1.v
       - rtl/qkv_macro_handler_hub/v_rtl/qkv_macro_handler_hub_N_Muxb_1_2_122_4.v
@@ -1601,7 +1602,6 @@ sources:
       - rtl/qkv_macro_handler_hub/v_rtl/qkv_macro_handler_hub_Add_32Ux32U_32U_1.v
       - rtl/qkv_macro_handler_hub/v_rtl/qkv_macro_handler_hub_Equal_1U_84_4.v
       - rtl/qkv_macro_handler_hub/v_rtl/qkv_macro_handler_hub_Equal_1U_77_4.v
-      - rtl/qkv_macro_handler_hub/v_rtl/qkv_macro_handler_hub_Add_6U_168_4.v
       - rtl/qkv_macro_handler_hub/v_rtl/qkv_macro_handler_hub_Equal_1U_15_1.v
       - rtl/qkv_macro_handler_hub/v_rtl/qkv_macro_handler_hub_Equal_1U_47_1.v
       - rtl/qkv_macro_handler_hub/v_rtl/qkv_macro_handler_hub_Add_6U_36_1.v
