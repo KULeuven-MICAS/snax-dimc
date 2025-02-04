@@ -870,65 +870,69 @@ sources:
       - rtl/snax_req_handler/v_rtl/snax_req_handler_Equal_1U_12_1.v
       - rtl/snax_req_handler/v_rtl/snax_req_handler_Equal_32Ux2U_1U_4.v
       - rtl/snax_req_handler/v_rtl/snax_req_handler_Equal_1U_5_4.v
-      - rtl/streamer_handler/v_rtl/streamer_handler_N_Muxb_1_2_11_4.v
-      - rtl/streamer_handler/v_rtl/streamer_handler_LessThan_1U_2_4.v
-      - rtl/streamer_handler/v_rtl/streamer_handler_N_Mux_1_2_10_4.v
+      - rtl/streamer_handler/v_rtl/streamer_handler_N_Mux_8_2_10_4.v
+      - rtl/streamer_handler/v_rtl/streamer_handler_Or_1Ux1U_1U_s_1.v
+      - rtl/streamer_handler/v_rtl/streamer_handler_AndReduction_4S_1U_1.v
       - rtl/streamer_handler/v_rtl/streamer_handler_Add_2Ux1U_3U_4.v
+      - rtl/streamer_handler/v_rtl/streamer_handler_N_Mux_8_16_31_1.v
+      - rtl/streamer_handler/v_rtl/streamer_handler_N_Mux_1_2_9_4.v
+      - rtl/streamer_handler/v_rtl/streamer_handler_AndReduction_4S_1U_4.v
+      - rtl/streamer_handler/v_rtl/streamer_handler_LessThan_1U_13_1.v
+      - rtl/streamer_handler/v_rtl/streamer_handler_LessThan_1U_13_4.v
       - rtl/streamer_handler/v_rtl/streamer_handler_Add_4Ux1U_5U_4.v
       - rtl/streamer_handler/v_rtl/streamer_handler_LessThan_6Sx6S_1U_4.v
-      - rtl/streamer_handler/v_rtl/streamer_handler_Add_5U_20_4.v
-      - rtl/streamer_handler/v_rtl/streamer_handler_N_Muxb_1_2_4_4.v
-      - rtl/streamer_handler/v_rtl/streamer_handler_Add_5U_20_1.v
       - rtl/streamer_handler/v_rtl/streamer_handler_Xor_1Ux1U_1U_s_4.v
+      - rtl/streamer_handler/v_rtl/streamer_handler_LessThan_1U_1_4.v
+      - rtl/streamer_handler/v_rtl/streamer_handler_Or_1Ux1U_1U_s_4.v
+      - rtl/streamer_handler/v_rtl/streamer_handler_N_Muxb_1_2_8_1.v
+      - rtl/streamer_handler/v_rtl/streamer_handler_Add_7U_19_4.v
+      - rtl/streamer_handler/v_rtl/streamer_handler_Add_2U_29_1.v
+      - rtl/streamer_handler/v_rtl/streamer_handler_N_Mux_1_2_17_1.v
       - rtl/streamer_handler/v_rtl/streamer_handler_Not_1U_1U_s_4.v
+      - rtl/streamer_handler/v_rtl/streamer_handler_N_Mux_8_16_31_4.v
       - rtl/streamer_handler/v_rtl/streamer_handler_Add_6Ux1U_7U_4.v
-      - rtl/streamer_handler/v_rtl/streamer_handler_Add_6U_26_4.v
-      - rtl/streamer_handler/v_rtl/streamer_handler_LessThan_1U_3_1.v
-      - rtl/streamer_handler/v_rtl/streamer_handler_LessThan_1U_9_4.v
-      - rtl/streamer_handler/v_rtl/streamer_handler_Add_7U_12_4.v
+      - rtl/streamer_handler/v_rtl/streamer_handler_And_1Ux1U_1U_s_4.v
+      - rtl/streamer_handler/v_rtl/streamer_handler_LessThan_1U_7_1.v
       - rtl/streamer_handler/v_rtl/streamer_handler_Add_4Ux1U_5U_1.v
-      - rtl/streamer_handler/v_rtl/streamer_handler_LessThan_1U_23_1.v
+      - rtl/streamer_handler/v_rtl/streamer_handler_N_Mux_8_2_10_1.v
       - rtl/streamer_handler/v_rtl/streamer_handler_LessThan_4Sx4S_1U_1.v
-      - rtl/streamer_handler/v_rtl/streamer_handler_N_Muxb_1_2_4_1.v
-      - rtl/streamer_handler/v_rtl/streamer_handler_N_Mux_8_2_16_1.v
-      - rtl/streamer_handler/v_rtl/streamer_handler_Add_7U_12_1.v
-      - rtl/streamer_handler/v_rtl/streamer_handler_N_Mux_1_2_6_4.v
-      - rtl/streamer_handler/v_rtl/streamer_handler_LessThan_1U_2_1.v
+      - rtl/streamer_handler/v_rtl/streamer_handler_LessThan_1U_1_1.v
+      - rtl/streamer_handler/v_rtl/streamer_handler_Add_2U_29_4.v
+      - rtl/streamer_handler/v_rtl/streamer_handler_N_Mux_1_2_17_4.v
+      - rtl/streamer_handler/v_rtl/streamer_handler_N_Mux_8_4_30_1.v
       - rtl/streamer_handler/v_rtl/streamer_handler_Add_1Ux1U_2U_1.v
       - rtl/streamer_handler/v_rtl/streamer_handler_LessThan_6Sx6S_1U_1.v
       - rtl/streamer_handler/v_rtl/streamer_handler_Add_1Ux1U_2U_4.v
       - rtl/streamer_handler/v_rtl/streamer_handler_LessThan_8Sx8S_1U_1.v
-      - rtl/streamer_handler/v_rtl/streamer_handler_N_Mux_1_2_6_1.v
-      - rtl/streamer_handler/v_rtl/streamer_handler_LessThan_1U_21_1.v
-      - rtl/streamer_handler/v_rtl/streamer_handler_N_Mux_8_4_24_1.v
-      - rtl/streamer_handler/v_rtl/streamer_handler_N_Mux_8_2_17_1.v
-      - rtl/streamer_handler/v_rtl/streamer_handler_And_1Ux1U_1U_4.v
+      - rtl/streamer_handler/v_rtl/streamer_handler_N_Mux_8_2_28_1.v
+      - rtl/streamer_handler/v_rtl/streamer_handler_N_Mux_1_2_9_1.v
+      - rtl/streamer_handler/v_rtl/streamer_handler_Add_5U_24_4.v
+      - rtl/streamer_handler/v_rtl/streamer_handler_N_Mux_8_2_28_4.v
       - rtl/streamer_handler/v_rtl/streamer_handler_LessThan_8Sx8S_1U_4.v
-      - rtl/streamer_handler/v_rtl/streamer_handler_LessThan_1U_3_4.v
+      - rtl/streamer_handler/v_rtl/streamer_handler_LessThan_1U_25_1.v
+      - rtl/streamer_handler/v_rtl/streamer_handler_N_Muxb_1_2_18_4.v
       - rtl/streamer_handler/v_rtl/streamer_handler_Add_6Ux1U_7U_1.v
-      - rtl/streamer_handler/v_rtl/streamer_handler_And_1Ux1U_1U_1.v
-      - rtl/streamer_handler/v_rtl/streamer_handler_N_Mux_8_16_25_4.v
+      - rtl/streamer_handler/v_rtl/streamer_handler_N_Muxb_1_2_8_4.v
+      - rtl/streamer_handler/v_rtl/streamer_handler_Add_5U_24_1.v
+      - rtl/streamer_handler/v_rtl/streamer_handler_LessThan_1U_7_4.v
       - rtl/streamer_handler/v_rtl/streamer_handler_LessThan_3Sx3S_1U_1.v
-      - rtl/streamer_handler/v_rtl/streamer_handler_N_Mux_8_16_25_1.v
-      - rtl/streamer_handler/v_rtl/streamer_handler_Or_1Ux1U_1U_4.v
-      - rtl/streamer_handler/v_rtl/streamer_handler_LessThan_1U_21_4.v
-      - rtl/streamer_handler/v_rtl/streamer_handler_LessThan_1U_23_4.v
+      - rtl/streamer_handler/v_rtl/streamer_handler_N_Mux_8_4_30_4.v
+      - rtl/streamer_handler/v_rtl/streamer_handler_And_1Ux1U_1U_s_1.v
+      - rtl/streamer_handler/v_rtl/streamer_handler_Add_3U_2_1.v
+      - rtl/streamer_handler/v_rtl/streamer_handler_N_MuxB_512_2_23_1.v
+      - rtl/streamer_handler/v_rtl/streamer_handler_LessThan_1U_0_1.v
+      - rtl/streamer_handler/v_rtl/streamer_handler_LessThan_1U_25_4.v
+      - rtl/streamer_handler/v_rtl/streamer_handler_N_Muxb_1_2_18_1.v
+      - rtl/streamer_handler/v_rtl/streamer_handler_LessThan_1U_0_4.v
       - rtl/streamer_handler/v_rtl/streamer_handler_Not_1U_1U_s_1.v
-      - rtl/streamer_handler/v_rtl/streamer_handler_N_Mux_1_2_10_1.v
-      - rtl/streamer_handler/v_rtl/streamer_handler_Or_1Ux1U_1U_1.v
-      - rtl/streamer_handler/v_rtl/streamer_handler_N_Mux_8_2_16_4.v
-      - rtl/streamer_handler/v_rtl/streamer_handler_N_Muxb_1_2_11_1.v
-      - rtl/streamer_handler/v_rtl/streamer_handler_LessThan_1U_9_1.v
-      - rtl/streamer_handler/v_rtl/streamer_handler_N_Mux_8_2_17_4.v
-      - rtl/streamer_handler/v_rtl/streamer_handler_N_Mux_8_4_24_4.v
+      - rtl/streamer_handler/v_rtl/streamer_handler_Add_3U_2_4.v
+      - rtl/streamer_handler/v_rtl/streamer_handler_Add_6U_32_4.v
       - rtl/streamer_handler/v_rtl/streamer_handler_LessThan_4Sx4S_1U_4.v
-      - rtl/streamer_handler/v_rtl/streamer_handler_Add_3U_22_4.v
       - rtl/streamer_handler/v_rtl/streamer_handler_Add_2Ux1U_3U_1.v
+      - rtl/streamer_handler/v_rtl/streamer_handler_N_MuxB_512_2_23_4.v
+      - rtl/streamer_handler/v_rtl/streamer_handler_Add_7U_19_1.v
       - rtl/streamer_handler/v_rtl/streamer_handler_LessThan_3Sx3S_1U_4.v
-      - rtl/streamer_handler/v_rtl/streamer_handler_Add_2U_13_1.v
-      - rtl/streamer_handler/v_rtl/streamer_handler_Add_3U_22_1.v
       - rtl/streamer_handler/v_rtl/streamer_handler_Xor_1Ux1U_1U_s_1.v
-      - rtl/streamer_handler/v_rtl/streamer_handler_Add_2U_13_4.v
       - rtl/qkv_macro_handler_unit/v_rtl/qkv_macro_handler_unit_Equal_6Ux1U_1U_1.v
       - rtl/qkv_macro_handler_unit/v_rtl/qkv_macro_handler_unit_Equal_1U_86_4.v
       - rtl/qkv_macro_handler_unit/v_rtl/qkv_macro_handler_unit_Add_21Sx17U_22S_4.v
