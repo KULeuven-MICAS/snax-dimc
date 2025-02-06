@@ -1309,3 +1309,7 @@ sources:
       - rtl/streamer_handler/streamer_handler_rtl.v
       - rtl/qkv_macro_handler_unit/qkv_macro_handler_unit_rtl.v
       - rtl/qkv_macro_handler_hub/qkv_macro_handler_hub_rtl.v
+      # ----------------------------
+      # DIMC top
+      # ----------------------------
+      - rtl/top.sv
